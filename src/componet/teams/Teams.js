@@ -13,6 +13,7 @@ const Teams = (props) => {
             <div className="card">
                 <img src={strTeamBadge}className="team-logo" alt="logo"/>
                 <p className="card__name">{strTeam}</p>
+                <p>Sprots by: Football</p>
                 <div className="grid-container">
                 <Link to={`/team/${idTeam}`}>
                         <Button variant="primary">Expled <FontAwesomeIcon icon={faArrowRight} /></Button>                

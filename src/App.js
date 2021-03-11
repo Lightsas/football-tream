@@ -1,5 +1,4 @@
 import React from 'react';
-// import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,7 +10,7 @@ import TeamDetails from './componet/teamdetails/TeamDetails';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <Switch>
           <Route exa path="/home">
