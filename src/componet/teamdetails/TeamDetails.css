@@ -1,0 +1,39 @@
+.Icon {
+    font-size: 30px;
+    text-align: center;
+}
+.icon-media {
+    padding: 10px;
+    color: black;
+}
+.player_detailsTop {
+    margin: auto;
+    width: 80%;
+    background-color: thistle;
+    padding: 20px;
+}
+.player_details {
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+
+}
+.banner-image {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+    .justify-content-around.align-items-center.mt-3.gallery-header.mb-2 {
+      flex-direction: column;
+    }
+    .player_detailsTop {
+         /* width: 200px; float: left;
+         margin-left: 216px; */
+
+    }
+  }
+  @media screen and (min-width: 480px) {
+
+}
