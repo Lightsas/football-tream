@@ -14,7 +14,7 @@ const TeamDetails = () => {
         .then(res => res.json())
         .then(data => setTeam(data.teams[0]));
     })
-    const {strTeam, strAlternate, intFormedYear, strCountry, strGender, strSport, strDescriptionDE, strDescriptionEN,strTeamBanner, strFacebook, strInstagram, strYoutube, strTeamBadge} = teams;
+    const {strTeam, intFormedYear, strCountry, strGender, strSport, strDescriptionDE, strDescriptionEN,strTeamBanner, strFacebook, strInstagram, strYoutube,} = teams;
     return (
         <div className="player_detailsTop">
             <img className="banner-image" src={strTeamBanner} alt=""/>

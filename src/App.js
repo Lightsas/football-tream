@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 // import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Home from './componet/home/Home';
 import NoMatch from './componet/nomatch/NoMatch';
